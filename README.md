@@ -154,6 +154,39 @@
       - email2
       - ativo
 
+  - Vendedores
+    - para criar os vendedores dos planos
+      - cd_vendedor
+      - nome
+      - cpf_cnpj
+      - rg
+      - orgao_expedidor
+      - logradouro_tipo
+      - logradouro_nome
+      - logradouro_nome
+      - logradouro_bairro
+      - logradouro_complemento
+      - logradouro_cep
+      - fone1_ddd
+      - fone1_numero
+      - fone2_ddd
+      - fone2_numero
+      - fone3_ddd
+      - fone3_numero
+      - contato1_nome
+      - contato1_setor
+      - contato2_nome
+      - contato2_setor
+      - contato3_nome
+      - contato3_setor
+      - data_contrato_inicio
+      - data_contrato_cancelamento
+      - email1
+      - email2
+      - site
+      - logomarca
+      - ativo
+
   - Relatórios
       - Clínicas: todos os dados cadastrais
       - Banco
@@ -163,6 +196,7 @@
       - Médicos
       - Planos
       - Beneficiários: com filtro para período de cadastro / ativos Sim ou Não / em ordem alfabética
+      - Vendedores
 
 ## CONTAS A RECEBER
 
@@ -187,4 +221,3 @@
 ## CONFIGURAÇÕES:
    - Senhas gerais
    - Usuários: deve ter 4 níveis de acesso: Operador / Supervisor / Gerencia / Administrador
-   - 
