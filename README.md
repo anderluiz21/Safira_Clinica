@@ -1,8 +1,6 @@
 # SISTEMA FINANCEIRO DE CLÍNICA
-=============================
 
 # OPÇÕES DO MENU PRINCIPAL
-========================
 
 ## CADASTROS
   - Empresa
