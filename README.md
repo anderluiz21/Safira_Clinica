@@ -126,32 +126,34 @@
       é individual
     - cada dependente é amarrado a um titular
     - além dos campos cadastrais normais tem que ter campo para dia do vencimento
-      - cd_beneficiário
+      - cd_Beneficiário
       - nome
       - cpf
       - rg
-      - orgao_expedidor
-      - cartao_sus
-      - outro_sistema
+      - orgao_Expedidor
+      - cartao_Sus
+      - outro_Sistema
       - matricula
-      - tipo_logradouro
+      - tipo_Logradouro
       - logradouro
-      - numero_logradouro
-      - complemento_logradouro
+      - numero_Logradouro
+      - complemento_Logradouro
       - bairro
       - cep
       - cidade
       - uf
-      - fone_residencial
-      - fone_comercial
-      - fone_celular
-      - fone_recados
-      - data_cadastro
+      - fone_Residencial
+      - fone_Comercial
+      - fone_Celular
+      - fone_Recados
+      - data_Cadastro
       - ativo
-      - cd_vendedor
-      - dia_vencimento
+      - cd_Vendedor
+      - dia_Vencimento
       - email1
       - email2
+      - valor_Mensalidade
+      - valor_Mensalidade_Anterior
       - ativo
 
   - Vendedores
@@ -161,26 +163,26 @@
       - cpf_cnpj
       - rg
       - orgao_expedidor
-      - logradouro_tipo
-      - logradouro_nome
-      - logradouro_nome
-      - logradouro_bairro
-      - logradouro_complemento
-      - logradouro_cep
+      - logradouro_Tipo
+      - logradouro_Nome
+      - logradouro_Nome
+      - logradouro_Bairro
+      - logradouro_Complemento
+      - logradouro_Cep
       - fone1_ddd
-      - fone1_numero
+      - fone1_Numero
       - fone2_ddd
-      - fone2_numero
+      - fone2_Numero
       - fone3_ddd
-      - fone3_numero
-      - contato1_nome
-      - contato1_setor
-      - contato2_nome
-      - contato2_setor
-      - contato3_nome
-      - contato3_setor
-      - data_contrato_inicio
-      - data_contrato_cancelamento
+      - fone3_Numero
+      - contato1_Nome
+      - contato1_Setor
+      - contato2_Nome
+      - contato2_Setor
+      - contato3_Nome
+      - contato3_Setor
+      - data_Contrato_Inicio
+      - data_Contrato_Cancelamento
       - email1
       - email2
       - site
@@ -217,6 +219,9 @@
   - Relatórios
     - Títulos em Aberto: pedir período
     - Títulos Pagos: pedir período
+  - Reajuste de Mensalidades
+    - Exigir nível de acesso gerencial
+    - Solicitar o índice de reajuste, o mês base e reajustar todas as mensalidades do contrato cujo mês da contratação for igual ao mês informado. Por segurança solicitar confirmação e salvar o valor no campo valor_Mensalidade_Anterior para o caso de termos que reverter
  
 ## CONFIGURAÇÕES:
    - Senhas gerais
